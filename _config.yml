@@ -2,7 +2,7 @@ url: https://bneikens.github.io
 
 # Site settings
 title: Neikens Electrical Contracting
-email: your-email@domain.com
+email: Bonnie@NeikensEC.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -10,11 +10,11 @@ social:
   - title: x
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url: https://facebook.com/...
+    url: https://www.facebook.com/profile.php?id=61582275519564
   - title: instagram
     url: https://facebook.com/...
   - title: linkedin
-    url: https://facebook.com/...
+    url: https://linkedin.com/neikens-electrical-contracting-llc
 # Postal address (add as many lines as necessary)
 address:
 
