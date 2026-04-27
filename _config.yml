@@ -5,7 +5,6 @@ title: Neikens Electrical Contracting
 email: Bonnie@NeikensEC.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-<<<<<<< HEAD
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: x
@@ -16,7 +15,6 @@ social:
     url: https://www.facebook.com/profile.php?id=61582275519564
   - title: linkedin
     url: https://linkedin.com/company/neikens-electrical-contracting-llc
-=======
 
 # Team names, titles and social links
 people:
@@ -53,20 +51,6 @@ people:
     - title: google-plus
       url: #
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
->>>>>>> parent of aa53f40 (Hide all tthe things)
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
