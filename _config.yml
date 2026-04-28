@@ -18,9 +18,9 @@ social:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Bonnie Neikens
   pic: 1
-  position: Lead Designer
+  position: Owner/ President
   social:
     - title: twitter
       url: #
@@ -29,9 +29,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Jon-Erik Neikens
   pic: 2
-  position: Lead Marketer
+  position: Master Electrician
   social:
     - title: twitter
       url: #
@@ -40,9 +40,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Toby Neikens
   pic: 3
-  position: Lead Developer
+  position: Head of Duck Retreiving
   social:
     - title: twitter
       url: #
@@ -53,8 +53,8 @@ people:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 308 Topeka Lane
+  - line: Willow Spring, NC 27592
 
 # Build settings
 markdown: kramdown
