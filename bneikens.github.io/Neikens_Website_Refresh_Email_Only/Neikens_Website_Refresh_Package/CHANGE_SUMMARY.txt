@@ -1,0 +1,18 @@
+NEIKENS ELECTRICAL CONTRACTING WEBSITE REFRESH
+
+Included improvements:
+- Supplied industrial electrical banner installed as the website hero image.
+- Contact Us and Request a Bid buttons route to Bids@NeikensEC.com.
+- All telephone numbers and click-to-call links have been removed. Website contact is email-only through Bids@NeikensEC.com.
+- New industrial service descriptions for water/wastewater facilities, pump and lift stations, controls, VFDs, PLC/instrumentation, generators/ATS, electrical distribution, and troubleshooting.
+- New capability, company, service-area, FAQ, team, contact, and footer content.
+- Employee photo/bio placeholders for John Brooks, Sam Tessier, and Nick Vanamburgh.
+- Demo web-design projects, fake client logos, lorem ipsum, and broken PHP contact functionality removed from the active design.
+- SEO title and description improvements.
+- Canonical, Open Graph, Twitter card, robots, and image metadata.
+- Electrician/LocalBusiness structured data and service catalog schema.
+- FAQ structured data.
+- robots.txt and sitemap.xml.
+- Descriptive headings, image alt text, internal anchors, responsive mobile design, an email-only mobile contact bar, and accessible navigation improvements.
+
+The SITE_FILES folder contains the files intended for the repository root.

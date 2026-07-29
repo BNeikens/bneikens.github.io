@@ -1,0 +1,30 @@
+<section id="team" class="section section-team bg-light-gray">
+  <div class="container">
+    <div class="section-intro text-center">
+      <p class="section-kicker">Meet the Team</p>
+      <h2 class="section-heading">People Behind the Work</h2>
+      <p class="section-subheading">Add employee portraits, job titles, credentials, specialties, and short introductions as they become available.</p>
+    </div>
+
+    <div class="row team-grid">
+      {% for member in site.people %}
+      <div class="col-sm-6 col-md-4 team-column">
+        <article class="team-card">
+          <div class="team-photo-wrap">
+            <img src="{{ '/img/team/' | append: member.image | relative_url }}" class="team-photo" alt="{{ member.name }} of Neikens Electrical Contracting" loading="lazy" width="420" height="420">
+          </div>
+          <div class="team-card-body">
+            <h3>{{ member.name }}</h3>
+            <p class="team-position">{{ member.position }}</p>
+            <p>{{ member.bio }}</p>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="team-note text-center">
+      <p><strong>Photo update:</strong> Replace the three placeholder SVG files in <code>img/team</code> and update each team member's image filename and biography in <code>_config.yml</code>.</p>
+    </div>
+  </div>
+</section>
