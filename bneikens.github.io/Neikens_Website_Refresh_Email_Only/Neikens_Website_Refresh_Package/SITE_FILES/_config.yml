@@ -1,0 +1,65 @@
+url: https://neikensec.com
+baseurl: ""
+
+# Site identity and primary contact information
+title: Neikens Electrical Contracting
+tagline: Industrial Electrical Solutions for Critical Infrastructure
+email: Bids@NeikensEC.com
+description: "Neikens Electrical Contracting provides industrial electrical construction, troubleshooting, controls, motor and VFD work, generators, transfer switches, and water and wastewater facility electrical services across North Carolina."
+keywords: "industrial electrical contractor North Carolina, water treatment plant electrician, wastewater electrical contractor, pump station electrical contractor, lift station electrician, motor controls, VFD installation, PLC instrumentation, generator installation, automatic transfer switch, medium voltage electrician, Raleigh industrial electrician, Durham industrial electrician"
+locale: en_US
+timezone: America/New_York
+
+social:
+  - title: facebook
+    label: Facebook
+    url: https://www.facebook.com/profile.php?id=61582275519564
+  - title: linkedin
+    label: LinkedIn
+    url: https://linkedin.com/company/neikens-electrical-contracting-llc
+
+# Team content. Replace placeholder image files and bio text when employee photos/bios are ready.
+people:
+  - name: Bonnie Neikens
+    image: 1.JPG
+    position: President / Owner
+    bio: "Bonnie leads company administration, client coordination, and the business systems that support safe, dependable project delivery."
+  - name: Jon-Erik Neikens
+    image: 2.JPG
+    position: Vice President / Operations
+    bio: "Jon-Erik directs estimating, field operations, troubleshooting, and execution for industrial and civil electrical projects."
+  - name: John Brooks
+    image: john-brooks-placeholder.svg
+    position: Field Team
+    bio: "Employee introduction coming soon. Add John's role, experience, certifications, specialties, and approach to serving customers."
+  - name: Sam Tessier
+    image: sam-tessier-placeholder.svg
+    position: Field Team
+    bio: "Employee introduction coming soon. Add Sam's role, experience, certifications, specialties, and approach to serving customers."
+  - name: Nick Vanamburgh
+    image: nick-vanamburgh-placeholder.svg
+    position: Field Team
+    bio: "Employee introduction coming soon. Add Nick's role, experience, certifications, specialties, and approach to serving customers."
+
+address:
+  locality: Willow Spring
+  region: NC
+  postal_code: "27592"
+  country: US
+
+service_areas:
+  - Raleigh
+  - Durham
+  - Cary
+  - Apex
+  - Chapel Hill
+  - Wake County
+  - Johnston County
+  - Harnett County
+  - North Carolina
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README-UPDATE.md

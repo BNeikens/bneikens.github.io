@@ -1,0 +1,122 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% assign meta_title = page.title | default: site.title %}
+  {% assign meta_description = page.seo_description | default: site.description %}
+  <title>{{ meta_title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+  <meta name="keywords" content="{{ site.keywords }}">
+  <meta name="author" content="{{ site.title }}">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#0a1119">
+  <meta name="geo.region" content="US-NC">
+  <meta name="geo.placename" content="Willow Spring, North Carolina">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" hreflang="en-us" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/img/NEC.svg' | relative_url }}">
+  <link rel="preload" as="image" href="{{ '/img/neikens-industrial-electrical-banner.jpg' | relative_url }}" fetchpriority="high">
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ meta_title }} | {{ site.title }}">
+  <meta property="og:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="{{ '/img/neikens-industrial-electrical-social.jpg' | absolute_url }}">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="665">
+  <meta property="og:image:alt" content="Industrial electrical one-line diagram, controls, and motor control equipment for Neikens Electrical Contracting">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ meta_title }} | {{ site.title }}">
+  <meta name="twitter:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+  <meta name="twitter:image" content="{{ '/img/neikens-industrial-electrical-social.jpg' | absolute_url }}">
+
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/font-awesome/css/font-awesome.min.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800%7CLato:400,700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "@id": "{{ site.url }}/#business",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "logo": "{{ '/img/NEC.svg' | absolute_url }}",
+    "image": "{{ '/img/neikens-industrial-electrical-banner.jpg' | absolute_url }}",
+    "description": {{ site.description | jsonify }},
+    "email": "mailto:{{ site.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ site.address.locality }}",
+      "addressRegion": "{{ site.address.region }}",
+      "postalCode": "{{ site.address.postal_code }}",
+      "addressCountry": "{{ site.address.country }}"
+    },
+    "areaServed": [
+      {"@type": "State", "name": "North Carolina"},
+      {"@type": "City", "name": "Raleigh"},
+      {"@type": "City", "name": "Durham"},
+      {"@type": "City", "name": "Cary"},
+      {"@type": "City", "name": "Apex"},
+      {"@type": "City", "name": "Chapel Hill"}
+    ],
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61582275519564",
+      "https://linkedin.com/company/neikens-electrical-contracting-llc"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Industrial Electrical Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Water and Wastewater Facility Electrical Construction"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Pump Station and Lift Station Electrical Work"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Motor Controls, VFDs, PLCs, and Instrumentation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Generators and Automatic Transfer Switches"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Industrial Troubleshooting and Maintenance"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Low- and Medium-Voltage Electrical Distribution"}}
+      ]
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What industrial electrical services does Neikens Electrical Contracting provide?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Neikens Electrical Contracting provides industrial electrical construction, troubleshooting, motor controls, VFD work, PLC and instrumentation installation, generators, transfer switches, electrical distribution, and facility upgrades."}
+      },
+      {
+        "@type": "Question",
+        "name": "Does Neikens Electrical Contracting work in water and wastewater facilities?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. The company focuses on water treatment plants, wastewater treatment plants, pump stations, lift stations, process equipment, controls, emergency power, and associated civil infrastructure."}
+      },
+      {
+        "@type": "Question",
+        "name": "What areas does Neikens Electrical Contracting serve?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Neikens Electrical Contracting is based in Willow Spring and serves Raleigh, Durham, Cary, Apex, Chapel Hill, Wake County, Johnston County, Harnett County, and projects throughout North Carolina."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can Neikens Electrical Contracting assist with bids and budget pricing?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. General contractors, municipal owners, engineers, and industrial clients can email plans, specifications, schedules, and project details to Bids@NeikensEC.com for review."}
+      }
+    ]
+  }
+  </script>
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>

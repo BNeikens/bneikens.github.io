@@ -1,0 +1,35 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row footer-main">
+      <div class="col-md-5">
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true"><span>NEC</span></span>
+          <span class="brand-copy">Neikens <small>Electrical Contracting</small></span>
+        </div>
+        <p>Industrial electrical construction, service, controls, and critical-infrastructure support across North Carolina.</p>
+      </div>
+      <div class="col-md-4 footer-contact">
+        <h2>Contact</h2>
+        <p><a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.email }}</a></p>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Willow Spring, NC</p>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>Connect</h2>
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li><a href="{{ network.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit NEC on {{ network.label }}"><i class="fa fa-{{ network.title }}" aria-hidden="true"></i></a></li>
+          {% endfor %}
+        </ul>
+        <a class="footer-bid-link" href="mailto:{{ site.email }}?subject=Website%20Bid%20Request">Request a Bid</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</span>
+      <span>Electrical solutions for civil and industrial infrastructure.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-contact-bar" aria-label="Quick contact">
+  <a href="mailto:{{ site.email }}?subject=Website%20Bid%20Request"><i class="fa fa-envelope" aria-hidden="true"></i> Email Our Estimating Team</a>
+</div>
