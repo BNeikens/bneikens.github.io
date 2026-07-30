@@ -16,7 +16,8 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" hreflang="en-us" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="icon" type="image/svg+xml" href="{{ '/img/NEC.svg' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/img/NEC.png' | relative_url }}">
+  <link rel="alternate icon" type="image/svg+xml" href="{{ '/img/NEC.svg' | relative_url }}">
   <link rel="preload" as="image" href="{{ '/img/neikens-industrial-electrical-banner.jpg' | relative_url }}" fetchpriority="high">
 
   <meta property="og:locale" content="en_US">
@@ -48,7 +49,7 @@
     "@id": "{{ site.url }}/#business",
     "name": "{{ site.title }}",
     "url": "{{ site.url }}",
-    "logo": "{{ '/img/NEC.svg' | absolute_url }}",
+    "logo": "{{ '/img/NEC.png' | absolute_url }}",
     "image": "{{ '/img/neikens-industrial-electrical-banner.jpg' | absolute_url }}",
     "description": {{ site.description | jsonify }},
     "email": "mailto:{{ site.email }}",
